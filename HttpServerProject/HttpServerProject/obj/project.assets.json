@@ -10,36 +10,6 @@
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
-      },
-      "System.Net.Http.Json/5.0.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Text.Json": "5.0.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/System.Net.Http.Json.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Net.Http.Json.dll": {}
-        }
-      },
-      "System.Text.Json/5.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/netcoreapp3.0/System.Text.Json.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.0/System.Text.Json.dll": {}
-        }
-      },
-      "Unity3D.UnityEngine/2018.3.5.1": {
-        "type": "package",
-        "compile": {
-          "lib/UnityEngine.dll": {}
-        },
-        "runtime": {
-          "lib/UnityEngine.dll": {}
-        }
       }
     }
   },
@@ -70,70 +40,11 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
-    },
-    "System.Net.Http.Json/5.0.0": {
-      "sha512": "3CPSQpCzEmI9o+1G79TnPCjF40omCdnoXj2Rg76BDwGj5+LZnFPjV+t35eedlvl+uthmholk/XXxXTYgJWSexw==",
-      "type": "package",
-      "path": "system.net.http.json/5.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/System.Net.Http.Json.dll",
-        "lib/net461/System.Net.Http.Json.xml",
-        "lib/net5.0/System.Net.Http.Json.dll",
-        "lib/net5.0/System.Net.Http.Json.xml",
-        "lib/netstandard2.0/System.Net.Http.Json.dll",
-        "lib/netstandard2.0/System.Net.Http.Json.xml",
-        "system.net.http.json.5.0.0.nupkg.sha512",
-        "system.net.http.json.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
-    "System.Text.Json/5.0.0": {
-      "sha512": "+luxMQNZ2WqeffBU7Ml6njIvxc8169NW2oU+ygNudXQGZiarjE7DOtN7bILiQjTZjkmwwRZGTtLzmdrSI/Ustw==",
-      "type": "package",
-      "path": "system.text.json/5.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/System.Text.Json.dll",
-        "lib/net461/System.Text.Json.xml",
-        "lib/netcoreapp3.0/System.Text.Json.dll",
-        "lib/netcoreapp3.0/System.Text.Json.xml",
-        "lib/netstandard2.0/System.Text.Json.dll",
-        "lib/netstandard2.0/System.Text.Json.xml",
-        "system.text.json.5.0.0.nupkg.sha512",
-        "system.text.json.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
-    "Unity3D.UnityEngine/2018.3.5.1": {
-      "sha512": "63ZCYwGdoBCmsJCUI6dodSY+1TrU/7lTDmfF+492Z6nn8my30E3sb5HXLe7qm7MLvBIcKz9TCy114yu5VGycKA==",
-      "type": "package",
-      "path": "unity3d.unityengine/2018.3.5.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/UnityEngine.dll",
-        "lib/UnityEngine.xml",
-        "unity3d.unityengine.2018.3.5.1.nupkg.sha512",
-        "unity3d.unityengine.nuspec"
-      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Newtonsoft.Json >= 13.0.1",
-      "System.Net.Http.Json >= 5.0.0",
-      "Unity3D.UnityEngine >= 2018.3.5.1"
+      "Newtonsoft.Json >= 13.0.1"
     ]
   },
   "packageFolders": {
@@ -183,14 +94,6 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.1, )"
-          },
-          "System.Net.Http.Json": {
-            "target": "Package",
-            "version": "[5.0.0, )"
-          },
-          "Unity3D.UnityEngine": {
-            "target": "Package",
-            "version": "[2018.3.5.1, )"
           }
         },
         "imports": [
@@ -211,17 +114,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'Unity3D.UnityEngine 2018.3.5.1' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v3.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
-      "libraryId": "Unity3D.UnityEngine",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  }
 }

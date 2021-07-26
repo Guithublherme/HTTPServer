@@ -5,9 +5,6 @@ C:\Users\Devs2\Documents\ServidorHTTP\HTTPServer\HttpServerProject\HttpServerPro
 C:\Users\Devs2\Documents\ServidorHTTP\HTTPServer\HttpServerProject\HttpServerProject\bin\Debug\netcoreapp3.1\HttpServerProject.dll
 C:\Users\Devs2\Documents\ServidorHTTP\HTTPServer\HttpServerProject\HttpServerProject\bin\Debug\netcoreapp3.1\HttpServerProject.pdb
 C:\Users\Devs2\Documents\ServidorHTTP\HTTPServer\HttpServerProject\HttpServerProject\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\Devs2\Documents\ServidorHTTP\HTTPServer\HttpServerProject\HttpServerProject\bin\Debug\netcoreapp3.1\System.Net.Http.Json.dll
-C:\Users\Devs2\Documents\ServidorHTTP\HTTPServer\HttpServerProject\HttpServerProject\bin\Debug\netcoreapp3.1\System.Text.Json.dll
-C:\Users\Devs2\Documents\ServidorHTTP\HTTPServer\HttpServerProject\HttpServerProject\bin\Debug\netcoreapp3.1\UnityEngine.dll
 C:\Users\Devs2\Documents\ServidorHTTP\HTTPServer\HttpServerProject\HttpServerProject\obj\Debug\netcoreapp3.1\HttpServerProject.AssemblyInfoInputs.cache
 C:\Users\Devs2\Documents\ServidorHTTP\HTTPServer\HttpServerProject\HttpServerProject\obj\Debug\netcoreapp3.1\HttpServerProject.AssemblyInfo.cs
 C:\Users\Devs2\Documents\ServidorHTTP\HTTPServer\HttpServerProject\HttpServerProject\obj\Debug\netcoreapp3.1\HttpServerProject.csproj.CoreCompileInputs.cache
