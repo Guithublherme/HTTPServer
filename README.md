@@ -28,6 +28,10 @@
 >  "extenso": "Intervalo incorreto"
 >}
 
+## Requisitos
+
+.Net Core 3.1
+
 ## Executando
 
 #### Passo 1
