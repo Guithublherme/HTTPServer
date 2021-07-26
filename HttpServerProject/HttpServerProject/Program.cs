@@ -1,16 +1,8 @@
 ﻿using System;
 using System.Net;
-using System.Collections.Generic;
 using System.IO;
-using System.Threading;
-using System.Text;
-using System.Net.Http.Json;
-using System.Net.Http;
 using System.Threading.Tasks;
-using System.Text.Json;
 using Newtonsoft.Json;
-using System.Net.Http.Headers;
-using UnityEngine.Networking;
 using Newtonsoft.Json.Linq;
 
 namespace HttpServerProject
@@ -18,8 +10,6 @@ namespace HttpServerProject
 	class HttpServer
 	{
 		static HttpListener _httpListener = new HttpListener();
-		string url = "http://localhost:3000/";
-		//HttpClient client = new HttpClient();
 		numExtenso num = new numExtenso();
 
 		public static async Task Main(string[] args)
@@ -59,26 +49,12 @@ namespace HttpServerProject
 							escreve.Write(json);
 						}
 					}
-					context.Response.Close();
-
-
-
+					
 				}
+				context.Response.Close();
 			}	
 		}
 
-		//public async Task ObterJson()
-  //      {
-		//	client.BaseAddress = new Uri("http://localhost:3000/");
-			
-		//	var response2 = new HttpResponseMessage();
-		//	HttpResponseMessage response = await client.GetAsync(url);
-		//	if (response.IsSuccessStatusCode)
-		//	{
-		//		Console.WriteLine(response2);
-		//		Console.WriteLine("Deu certo");
-		//	}
-		//}
 	}
 
 
