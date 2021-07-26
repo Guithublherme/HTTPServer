@@ -47,14 +47,6 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
-            },
-            "System.Net.Http.Json": {
-              "target": "Package",
-              "version": "[5.0.0, )"
-            },
-            "Unity3D.UnityEngine": {
-              "target": "Package",
-              "version": "[2018.3.5.1, )"
             }
           },
           "imports": [
