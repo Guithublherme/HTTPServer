@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "yCh0TzdwuzoTBRv24AbaEZwONcxsw8oF8IScpT7vxshWjnZ9h287AIiZA2J6H6kymctb8RiaPO7KNX9r0IonOA==",
+  "dgSpecHash": "gbJvZMZeITHai/w2IVjxI/rtVZzmwUqTeBS6NxnjlX941Ki8nwgqDF0OKJB+1mD/6jskZKjFt/auuhaJ+yxULA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Devs2\\Documents\\ServidorHTTP\\HTTPServer\\HttpServerProject\\HttpServerProject\\HttpServerProject.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Devs2\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
