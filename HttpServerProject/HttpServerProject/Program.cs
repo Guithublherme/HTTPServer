@@ -10,13 +10,15 @@ using System.Threading.Tasks;
 using System.Text.Json;
 using Newtonsoft.Json;
 using System.Net.Http.Headers;
+using UnityEngine.Networking;
+using Newtonsoft.Json.Linq;
 
 namespace HttpServerProject
 {
 	class HttpServer
 	{
 		static HttpListener _httpListener = new HttpListener();
-		//string url = "http://localhost:3000/";
+		string url = "http://localhost:3000/";
 		//HttpClient client = new HttpClient();
 		numExtenso num = new numExtenso();
 
@@ -39,17 +41,30 @@ namespace HttpServerProject
 				HttpListenerContext context = _httpListener.GetContext(); 
 				context.Response.KeepAlive = false; 
 				string pathUrl = context.Request.RawUrl.ToString();
-				string pedacoCaminhoUrl = pathUrl.Length > 0? pathUrl[1].ToString():"";
-				context.Response.Close(); 
-				if (pedacoCaminhoUrl != "f" )
-                {
+				string pedacoCaminhoUrl = pathUrl.Length > 1? pathUrl[1].ToString():"";
+				
+				if (pedacoCaminhoUrl != "f" && pathUrl.Length > 1)
+				{
 					Console.WriteLine("Um caminho foi solicitado");
 					string numPorExtenso = num.ConverteCaminhoEmNumExtenso(pathUrl);
 					Console.WriteLine(numPorExtenso);
-	
-				}
+					//POST
+					using (Stream stream = context.Response.OutputStream)
+					{
+						using (StreamWriter escreve = new StreamWriter(stream))
+						{
+							string str = "{ \"extenso\": \"" + numPorExtenso + "\" }";
+							var json = JObject.Parse(str);
+							var json2 = JsonConvert.SerializeObject(json);
+							escreve.Write(json);
+						}
+					}
+					context.Response.Close();
 
-			}
+
+
+				}
+			}	
 		}
 
 		//public async Task ObterJson()
