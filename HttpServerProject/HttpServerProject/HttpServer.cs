@@ -49,9 +49,9 @@ namespace HttpServerProject
 							escreve.Write(json);
 						}
 					}
-					context.Response.Close();
-
+					
 				}
+				context.Response.Close();
 			}	
 		}
 
@@ -59,3 +59,5 @@ namespace HttpServerProject
 
 
 }
+
+

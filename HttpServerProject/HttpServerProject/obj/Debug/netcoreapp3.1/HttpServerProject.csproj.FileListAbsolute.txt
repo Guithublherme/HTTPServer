@@ -1,0 +1,15 @@
+C:\Users\Devs2\Documents\ServidorHTTP\HTTPServer\HttpServerProject\HttpServerProject\bin\Debug\netcoreapp3.1\HttpServerProject.exe
+C:\Users\Devs2\Documents\ServidorHTTP\HTTPServer\HttpServerProject\HttpServerProject\bin\Debug\netcoreapp3.1\HttpServerProject.deps.json
+C:\Users\Devs2\Documents\ServidorHTTP\HTTPServer\HttpServerProject\HttpServerProject\bin\Debug\netcoreapp3.1\HttpServerProject.runtimeconfig.json
+C:\Users\Devs2\Documents\ServidorHTTP\HTTPServer\HttpServerProject\HttpServerProject\bin\Debug\netcoreapp3.1\HttpServerProject.runtimeconfig.dev.json
+C:\Users\Devs2\Documents\ServidorHTTP\HTTPServer\HttpServerProject\HttpServerProject\bin\Debug\netcoreapp3.1\HttpServerProject.dll
+C:\Users\Devs2\Documents\ServidorHTTP\HTTPServer\HttpServerProject\HttpServerProject\bin\Debug\netcoreapp3.1\HttpServerProject.pdb
+C:\Users\Devs2\Documents\ServidorHTTP\HTTPServer\HttpServerProject\HttpServerProject\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Devs2\Documents\ServidorHTTP\HTTPServer\HttpServerProject\HttpServerProject\obj\Debug\netcoreapp3.1\HttpServerProject.AssemblyInfoInputs.cache
+C:\Users\Devs2\Documents\ServidorHTTP\HTTPServer\HttpServerProject\HttpServerProject\obj\Debug\netcoreapp3.1\HttpServerProject.AssemblyInfo.cs
+C:\Users\Devs2\Documents\ServidorHTTP\HTTPServer\HttpServerProject\HttpServerProject\obj\Debug\netcoreapp3.1\HttpServerProject.csproj.CoreCompileInputs.cache
+C:\Users\Devs2\Documents\ServidorHTTP\HTTPServer\HttpServerProject\HttpServerProject\obj\Debug\netcoreapp3.1\HttpServerProject.csproj.CopyComplete
+C:\Users\Devs2\Documents\ServidorHTTP\HTTPServer\HttpServerProject\HttpServerProject\obj\Debug\netcoreapp3.1\HttpServerProject.dll
+C:\Users\Devs2\Documents\ServidorHTTP\HTTPServer\HttpServerProject\HttpServerProject\obj\Debug\netcoreapp3.1\HttpServerProject.pdb
+C:\Users\Devs2\Documents\ServidorHTTP\HTTPServer\HttpServerProject\HttpServerProject\obj\Debug\netcoreapp3.1\HttpServerProject.genruntimeconfig.cache
+C:\Users\Devs2\Documents\ServidorHTTP\HTTPServer\HttpServerProject\HttpServerProject\obj\Debug\netcoreapp3.1\HttpServerProject.csproj.AssemblyReference.cache
